@@ -20,6 +20,9 @@ class VinylController extends AbstractController
             ['song' => 'Song 4', 'artist' => 'Artist 4'],
         ];
 
+        // Shows in the debug bar
+        // dump($tracks);
+
         // The render method returns a Response object
         return $this->render('vinyl/homepage.html.twig', [
             'title' => 'PB and Jams',
